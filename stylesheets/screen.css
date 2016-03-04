@@ -90,6 +90,11 @@ body {
 }
 
 /* line 27, ../sass/screen.scss */
+.hidden {
+  display: none;
+}
+
+/* line 31, ../sass/screen.scss */
 table {
   position: absolute;
   left: 173px;
@@ -97,13 +102,13 @@ table {
   border-spacing: 0px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 td {
   width: 94px;
   height: 94px;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 form {
   position: absolute;
   bottom: 0px;
@@ -112,19 +117,19 @@ form {
   background-color: #53af13;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 form input {
   background-color: #98cf71;
   border-color: #53af13;
   font-size: 1em;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .hit {
   background: url("../images/ship.png") no-repeat center center;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .miss {
   background: url("../images/miss.png") no-repeat center center;
 }

@@ -22,6 +22,11 @@ body {
   top: 0px;
   left: 0px;
   color: rgb(83, 175, 19);
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
 }
 
 table {
@@ -51,9 +56,11 @@ form input {
 }
 
 .hit {
-  background-image: url("../images/ship.png") no-repeat center center;
+  background: url("../images/ship.png") no-repeat center center;
+
+
 }
 
 .miss {
-  background-image: url("../images/miss.png") no-repeat center center;
+  background: url("../images/miss.png") no-repeat center center;
 }
